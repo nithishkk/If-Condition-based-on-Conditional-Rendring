@@ -10,10 +10,11 @@ export default function App() {
   // } else{
   //   return <Text/>
   // }
+
   return (
     <div>
       // 2ed way
-      {!isloggin ? <Test/> : <Text/>}
+      {!isloggin ? <Test/> :<Text/>}
       <h1>Hello StackBlitz!</h1>
       <p>Start editing to see some magic happen :)</p>
     </div>
